@@ -1,0 +1,56 @@
+
+/* style.css */
+
+/* Estilo general del formulario */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    background-image: url('https://via.placeholder.com/400'); /* URL de tu imagen de fondo */
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Color del texto */
+}
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2f00ff; /* Color del texto */
+}
+
+/* Estilo de los campos de entrada */
+
+.input-wrapper input[type="mail"],
+input[type="text"],
+input[type="date"],
+input[type="tel"]{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+/* Estilo del botón de enviar */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
